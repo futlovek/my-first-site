@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мой первый сайт</title>
+</head>
+
+<body>
+
+    <h1 id="text">что делает киса?</h1>
+
+    <img id="catImage" src="cat1.jpg" width="450">
+
+    <button onclick="changeText()">
+        мяу
+    </button>
+
+    <script>
+        function changeText() {
+            document.getElementById("text").innerText = "кошечка мурчит";
+            document.getElementById("catImage").src = "cat2.jpg";
+            }
+    </script>
+
+</body>
+</html>
